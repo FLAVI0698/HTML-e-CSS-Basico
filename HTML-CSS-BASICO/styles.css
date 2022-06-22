@@ -1,0 +1,94 @@
+.img1{
+    width: 50px;
+    float: left;
+    border: 1px solid white;
+}
+.p1{
+    margin-bottom: 25px;
+
+}
+.img2{
+    width: 50px;
+    float: left;
+}
+.p2{
+    margin-bottom: 50px;
+}
+li{
+    list-style: circle;
+}
+.pag{
+    width: 150px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(42, 153, 228);
+    color: rgb(77, 62, 62);
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+.pag,
+.ins,
+.twi,
+.you,:visited{
+    color:black;
+}
+/* PAGINA 2 */
+.body{
+    background-color: black;
+    
+}
+.card{
+    width:400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15%;
+    background: white;
+    background-image: url(./pagina2/assetss/backgorund.png);
+    background-size:cover;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.cardTitle{
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.a{
+    text-decoration: none;
+}
+.bg{
+    padding-left: 15px;
+}
+.ins{   
+    list-style-image:url(./pagina2/assetss/Insta.png);
+    list-style-position: inside;
+}
+.twi{
+    list-style-image: url(./pagina2/assetss/Twitter.png);
+    list-style-position: inside;
+}
+.you{
+    list-style-image: url(./pagina2/assetss/Youtube.png);
+    list-style-position: inside;
+}
+.AntBot{
+    color: rgb(77, 62, 62);
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    background: rgb(42, 153, 228);
+    color: rgb(77, 62, 62);
+    border-radius: 10px;
+    width: 120px;
+    height: 24px;
+    text-align: center;
+    padding-top: 2px ;
+    text-decoration: none;
+}
+.AntBot:hover,
+.pag:hover{
+    background: #10ebce;
+    color: black;
+}
